@@ -5,6 +5,8 @@ body {
     background-color: #CCE0FF;
 }
 
+/*Home Page*/
+
 .banner { 
     position: relative;
     background-image: url(/images/exhibition-1863344_1920.jpg);
@@ -69,6 +71,10 @@ body {
     color: white;
 }
 
+.text-container:last-of-type {
+    width: 80%;
+}
+
 .text-container p {
     margin: 0;
 }
@@ -77,12 +83,6 @@ h3 {
     margin: 0;
     margin-top: 10px;
 }
-
-.text-container:last-of-type {
-    width: 80%;
-}
-
-
 
 .vision {
     margin-top: 20px;
@@ -105,5 +105,43 @@ h3 {
 
 .explore-button:hover {
     background-color: #0760d4;
+}
+
+/* Exhibition page */
+
+
+
+.exhibition-content {
+    background-color: #006666;
+    color: white;
+    width: 94%;
+    margin-left: 80px;
+    margin-bottom: 40px;
+}
+
+.exhibition-images {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    padding-bottom: 40px;
+}
+
+.exhibition-images img {
+    width: 1000px;
+    height: 800px;
+}
+
+.exhibition-text {
+    padding: 10px;
+    padding-left:150px;
+    width: 80%;
+}
+
+.exhibition-text h3 {
+    font-size: 50px;
+}
+
+.exhibition-text p {
+    font-size: 40px;
 }
 
