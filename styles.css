@@ -139,9 +139,10 @@ h3 {
 
 .exhibition-text h3 {
     font-size: 50px;
+
 }
 
 .exhibition-text p {
     font-size: 40px;
+    margin-top: 20px;
 }
-
