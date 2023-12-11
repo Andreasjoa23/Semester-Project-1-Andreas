@@ -110,8 +110,7 @@ h3 {
 /* Exhibition page */
 
 
-
-.exhibition-content {
+.style-content {
     background-color: #006666;
     color: white;
     width: 94%;
@@ -119,30 +118,30 @@ h3 {
     margin-bottom: 40px;
 }
 
-.exhibition-images {
+.style-images {
     display: flex;
     justify-content: center;
     gap: 100px;
     padding-bottom: 40px;
 }
 
-.exhibition-images img {
+.style-images img {
     width: 1000px;
     height: 800px;
 }
 
-.exhibition-text {
+.style-text {
     padding: 10px;
     padding-left:150px;
     width: 80%;
 }
 
-.exhibition-text h3 {
+.style-text h3 {
     font-size: 50px;
 
 }
 
-.exhibition-text p {
+.style-text p {
     font-size: 40px;
     margin-top: 20px;
 }
