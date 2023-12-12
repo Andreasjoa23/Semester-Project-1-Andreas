@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Discovery Den</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="contact.css">
     <script src="https://kit.fontawesome.com/71af401eab.js" crossorigin="anonymous"></script>
 </head>
 <body>
@@ -27,32 +27,47 @@
         <section class="titles">
             <h2>Contact</h2>
         </section>
-
-        <section class="phone">
-            <i class="fa-thin fa-mobile" style="color: #000000;"></i>
-            <p>Phone number</p>
-            <p>12345678</p>
-        </section>
-
-        <section class="adress">
-            <i class="fa-solid fa-location-dot" style="color: #000000;"></i>
-            <p>Adress</p>
-            <p>Matamata street 12</p>
-        </section>
-
-        <section class="email">
-            <i class="fa-regular fa-envelope" style="color: #000000;"></i>
-            <p>Email</p>
-            <p>Panic@museum.com</p>
-        </section>
+        
+        <div class="contact-info">
+            <section class="phone">
+                <i class="fa-solid fa-mobile-screen"></i>
+                <div class="info">
+                    <p>Phone number</p>
+                    <p>12345678</p>
+                </div>
+            </section>
+            <section class="adress">
+                <i class="fa-solid fa-location-dot" style="color: #000000;"></i>
+                <p>Adress</p>
+                <p>Matamata street 12</p>
+            </section>
+            <section class="email">
+                <i class="fa-regular fa-envelope" style="color: #000000;"></i>
+                <p>Email</p>
+                <p class="special">Panic@museum.com</p>
+            </section>
+        </div>
 
         <section class="contact-form">
-            <h2>Contact Us</h2>
+            <div class="contact-title">
+                <h2>Contact Us</h2>
+            </div>
             <form>
-            <input class="form" type="text" placeholder="Email" name="email" id="email" required>
-            <input class="form" type="text" placeholder="subject" name="subject" id="subject" required>
-            <textarea class="text-form" placeholder="Message" name="message" id="message"></textarea>
-            </form>
+                <div class="input-container">
+                    <label for="email">Email:</label>
+                    <input class="form" type="text" placeholder="Email" name="email" id="email" required>
+                </div>
+                <div class="input-container">
+                    <label for="subject">Subject:</label>
+                    <input class="form" type="text" placeholder="Subject" name="subject" id="subject" required>
+                </div>
+                <div class="input-container">
+                    <label for="message"> Message</label>
+                    <textarea class="text-form" placeholder="Message" name="message" id="message" rows="8"></textarea>
+                </div>
+                    <button type="submit">Send message</button>
+                </form>
+                
         </section>
 
         <section class="titles">
@@ -60,59 +75,69 @@
         </section>
 
         <section class="facility-container">
-            <div class="list-box">
-                <h3>Admission</h3>
-                <div class="icons">
-                    <i class="fa-solid fa-ticket" style="color: #ffffff;"></i>
+            <h3>Admission</h3>
+            <div class="facility-items">
+                <div class="facility-box">
+                    <div class="icons">
+                        <i class="fa-solid fa-ticket" style="color: #ffffff;"></i>
+                    </div>
                 </div>
-                <p class="box-text">The entrance is free for all. There are guided tours of the museum that leave every hour. These tours are 70 NOK per person and include a handy printed guide of the museum. If you would like to organise a guided tour for your group of 6 or more people, please contact us to arrange the tour.</p>
-            </div>
-        </section>
-
-        <section class="facility-container">
-            <div class="list-box">
-                <h3>Accessibility</h3>
-                <div class="icons">
-                    <i class="fa-brands fa-accessible-icon" style="color: #ffffff;"></i>
+                <div class="facility-text">
+                    <p>The entrance is free for all. There are guided tours of the museum that leave every hour. These tours are 70 NOK per person and include a handy printed guide of the museum. If you would like to organise a guided tour for your group of 6 or more people, please contact us to arrange the tour.</p>
                 </div>
-                <p class="box-text">The museum has wheelchair accessibility ramps. It also has audio guides and braille display signs for the visually impaired.</p>
             </div>
-        </section>
 
-        <section class="facility-container">
-            <div class="list-box">
-                <h3>Food and drink</h3>
-                <div class="icons">
-                    <i class="fa-brands fa-accessible-icon" style="color: #ffffff;"></i>
+            <h3>Accessibility</h3>
+            <div class="facility-items">
+                <div class="facility-box">
+                    <div class="icons">
+                        <i class="fa-brands fa-accessible-icon" style="color: #ffffff;"></i>
+                    </div>
                 </div>
-                <p class="box-text">There is a café atitached to the museum where you can get light lunches, soft drinks, coffee, snacks and more.</p>
-            </div>
-        </section>
-
-        <section class="facility-container">
-            <div class="list-box">
-                <h3>Shop</h3>
-                <div class="icons">
-                    <i class="fa-thin fa-cart-shopping" style="color: #ffffff;"></i>
+                <div class="facility-text">
+                    <p>The museum has wheelchair accessibility ramps. It also has audio guides and braille display signs for the visually impaired.</p>
                 </div>
-                <p class="box-text">Our shop offers a range of memorabilia from the museum as well as great gifts and activity packs that allow you to continue to explore science even after you’ve left the museum.</p>
             </div>
-        </section>
+                
+            <h3>Food and drink</h3>
+            <div class="facility-items">
+                <div class="facility-box">
+                    <div class="icons">
+                        <i class="fa-solid fa-utensils" style="color: #ffffff;"></i>
+                    </div>
+                </div>
+                <div class="facility-text">
+                    <p>There is a café atitached to the museum where you can get light lunches, soft drinks, coffee, snacks and more.</p>
+                </div>
+            </div>
 
-        <section class="facility-container">
-            <div class="list-box">
-                <h3>Opening hours</h3>
-                <div class="icons">
-                    <i class="fa-solid fa-stopwatch" style="color: #ffffff;"></i>
+            <h3>Shop</h3>
+            <div class="facility-items">
+                <div class="facility-box">
+                    <div class="icons">
+                        <i class="fa-solid fa-store" style="color: #ffffff;"></i>
+                    </div>
+                </div>
+                <div class="facility-text">
+                    <p>Our shop offers a range of memorabilia from the museum as well as great gifts and activity packs that allow you to continue to explore science even after you’ve left the museum.</p>
+                </div>
+            </div>
+
+            <h3>Opening hours</h3>
+            <div class="facility-items">
+                <div class="facility-box">
+                    <div class="icons">
+                        <i class="fa-solid fa-stopwatch" style="color: #ffffff;"></i>
+                    </div>
                 </div>
                 <div class="opening-text">
-                <p>Monday: Closed</p>
-                <p>Thuesday: 10:00 - 16:00</p>
-                <p>Wednesday: 10:00 - 16:00</p>
-                <p>Thursday: 10:00 - 16:00</p>
-                <p>Friday: 10:00 - 19:00</p>
-                <p>Saturday: 9:00 - 13:00</p>
-                <p>Sunday: 9:00 - 13:00</p>
+                    <p>Monday: Closed</p>
+                    <p>Thuesday: 10:00 - 16:00</p>
+                    <p>Wednesday: 10:00 - 16:00</p>
+                    <p>Thursday: 10:00 - 16:00</p>
+                    <p>Friday: 10:00 - 19:00</p>
+                    <p>Saturday: 9:00 - 13:00</p>
+                    <p>Sunday: 9:00 - 13:00</p>
                 </div>
             </div>
         </section>

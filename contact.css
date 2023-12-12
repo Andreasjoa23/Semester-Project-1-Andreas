@@ -1,0 +1,148 @@
+@import url(header.css);
+@import url(footer.css);
+@import url(styles.css);
+
+.contact-info {
+    display: flex;
+    justify-content: space-between;
+    width: 65%;
+    margin: 0 auto;
+}
+
+.contact-info section {
+    width: calc(20% - 30px);
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+    background-color: white;
+    margin-right: 10px;
+    margin-bottom: 40px;
+}
+
+.contact-info section i {
+    font-size: 80px;
+    margin-bottom: 10px;
+}
+
+.contact-info p {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.contact-info p:last-of-type {
+    text-decoration: underline;
+}
+
+.contact-form {
+    width: 40%;
+    margin: 0 auto;
+    background-color: white;
+    padding: 10px;
+    margin-bottom: 40px;
+    border-radius: 5px;
+}
+
+.contact-title {
+    text-align: left;
+    font-size: 20px;
+}
+
+.form,
+.text-form {
+    width: 95%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+.input-container {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    margin-left: 2px;
+}
+
+.contact-form button {
+    display: block;
+    margin: 0 auto;
+    width: 30%;
+    font-size: 40px;
+    text-align: center;
+    color: white;
+    background-color: #0056b3;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.contact-form button:hover {
+    background-color: #0760d4;
+}
+
+
+.facility-container {
+    display: flex;
+    flex-direction: column;
+    max-width: 1600px;
+    margin: 0 auto;
+    background-color: white;
+    margin-bottom: 100px;
+}
+
+.facility-items {
+    display: flex;
+    align-items: flex-start;
+    margin-left: 40px;
+    margin-bottom: 30px;
+}
+
+.facility-container h3 {
+    font-size: 30px;
+    margin-bottom: 10px;
+    margin-left: 40px;
+}
+
+.facility-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0056b3;
+    width: 300px;
+    height: 300px;
+}
+
+.icons {
+    font-size: 100px;
+}
+
+.facility-text {
+    font-size: 40px;
+    width: 60%;
+    margin-bottom: 0;
+}
+
+.facility-text p {
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 20px;
+}
+
+.opening-text {
+    font-size: 30px;
+    padding-right: 20px;
+    width: 50%;
+}
+
+.opening-text p {
+    margin: 10px;
+    margin-left: 20px;
+    margin-top: 0;
+}

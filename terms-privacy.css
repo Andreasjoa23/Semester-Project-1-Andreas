@@ -1,0 +1,17 @@
+@import url(header.css);
+@import url(footer.css);
+@import url(styles.css);
+
+.body {
+    margin: 0;
+    padding: 0;
+    background-color: #006666;
+}
+
+.terms-container {
+    max-width: 90%;
+    margin: 20px auto;
+    padding: 10px;
+    background-color: white;
+    font-size: 20px;
+}
