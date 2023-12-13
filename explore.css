@@ -1,0 +1,67 @@
+@import url(/header.css);
+@import url(footer.css);
+@import url(styles.css);
+@import url(index.css);
+
+.explore-box1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: white;
+    background-color: #006666;
+    width: 94%;
+    margin-left: 80px;
+    margin-bottom: 40px;
+}
+
+.explore-box1 h3 {
+    margin-top: 50px;
+    font-size: 50px;
+}
+
+.explore-text1 {
+    margin-bottom: 20px;
+    font-size: 40px;
+    width: 80%;
+}
+
+.explore-image img {
+    max-width: 100%;
+    height: 800px;
+}
+
+.contact-button1, .contact-button2, .contact-button3 {
+    margin-bottom: 20px;
+    margin-top: 20px;
+    width: 10%;
+    font-size: 40px;
+    text-align: center;
+    color: white;
+    background-color: #0056b3;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    text-decoration: none;
+}
+
+.contact-button1:hover {
+    background-color: #0760d4;
+}
+
+.explore-text2 {
+    flex: 1;
+    flex-direction: column;
+    padding: 0 20px;
+    font-size: 40px;
+    margin-left: 100px;
+    line-height: 1.6;
+    color: white;
+    width: 60%;
+}
+
+.explore-text2 p {
+    margin: 0;
+}
+
