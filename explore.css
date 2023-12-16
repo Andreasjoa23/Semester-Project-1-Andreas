@@ -1,67 +1,156 @@
 @import url(/header.css);
 @import url(footer.css);
 @import url(styles.css);
-@import url(index.css);
+
+main h3 {
+    margin: 20px 0 20px 0;
+    font-size: 2vw;
+}
+
+main p {
+    font-size: 1.5vw;
+    margin: 0;
+}
 
 .explore-box1 {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    background-color: #006666;
+    width: 80%;
+    margin: 0 auto 40px;
+}
+
+.explore-text1 {
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
-    color: white;
-    background-color: #006666;
-    width: 94%;
-    margin-left: 80px;
-    margin-bottom: 40px;
 }
 
-.explore-box1 h3 {
-    margin-top: 50px;
-    font-size: 50px;
+.explore-image1 {
+    display: flex;
+    width: 100%;
+    max-width: 40vw;
+    margin-top: 20px;
 }
 
-.explore-text1 {
-    margin-bottom: 20px;
-    font-size: 40px;
-    width: 80%;
-}
-
-.explore-image img {
+.explore-image1 img {
+    width: 100%;
     max-width: 100%;
-    height: 800px;
+    height: auto;
 }
 
-.contact-button1, .contact-button2, .contact-button3 {
+.contact-button {
     margin-bottom: 20px;
     margin-top: 20px;
-    width: 10%;
-    font-size: 40px;
+    font-size: 1.8vw;
+    border-radius: 50px;
     text-align: center;
     color: white;
     background-color: #0056b3;
     border: none;
-    border-radius: 50px;
     cursor: pointer;
     transition: background-color 0.3s ease;
     text-decoration: none;
+    display: block;
+    width: 7vw;
 }
 
 .contact-button1:hover {
     background-color: #0760d4;
 }
 
+.content-box {
+    position: relative;
+    display: flex;
+    margin-bottom: 20px;
+    max-width: 80%;
+    background-color: #006666;
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+.image-container {
+    display: flex;
+}
+
+.image-container img {
+    display: block; 
+    width: 35vw;
+    height: auto;
+    object-fit: cover;
+}
+
 .explore-text2 {
     flex: 1;
+    display:flex;
     flex-direction: column;
     padding: 0 20px;
-    font-size: 40px;
-    margin-left: 100px;
+    margin-left: 50px;
     line-height: 1.6;
     color: white;
     width: 60%;
 }
 
-.explore-text2 p {
-    margin: 0;
+@media screen and (max-width: 1500px) {
+    h3 {
+        margin: 10px 0 5px 0;
+    }
+    .contact-button {
+        margin: 5px;
+    }
+    .explore-text2 {
+        margin-left: 5px;
+    }
 }
 
+@media screen and (max-width: 700px) {
+    main h3 {
+        font-size: 20px;
+        margin: 0 0 2px 2px;
+    }
+    main p {
+        font-size: 20px;
+        padding-left: 2px;
+    }
+    .explore-box1 {
+        width: 90%;
+    }
+    .explore-image1 {
+        max-width: 100%;
+        margin: 0;
+        height: auto;
+    }
+    .contact-button {
+        margin: 5px;
+        font-size: 20px;
+        margin: 20px auto;
+        width: 100px;
+    }
+    .explore-text2 {
+        flex: none;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+    }
+
+    .image-container img {
+        height: 480px;
+        width: 100%;
+    }
+    .content-box {
+        flex-direction: column;
+    }
+}
+@media screen and (max-width: 400px) {
+    main h3 {
+        font-size: 13px;
+        margin: 0 0 2px 2px;
+    }
+    main p {
+        font-size: 12px;
+        padding-left: 2px;
+    }
+}
