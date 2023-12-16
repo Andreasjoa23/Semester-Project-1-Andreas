@@ -5,12 +5,12 @@
 .contact-info {
     display: flex;
     justify-content: space-between;
-    width: 65%;
+    width: 75%;
     margin: 0 auto;
 }
 
 .contact-info section {
-    width: calc(20% - 30px);
+    width: calc(33% - 30px);
     border: 1px solid black;
     padding: 10px;
     text-align: center;
@@ -20,12 +20,13 @@
 }
 
 .contact-info section i {
-    font-size: 80px;
+    font-size: 4vw;
     margin-bottom: 10px;
 }
 
 .contact-info p {
-    font-size: 30px;
+    margin: 0 0 20px 0;
+    font-size: 1.3vw;
     font-weight: bold;
 }
 
@@ -34,12 +35,14 @@
 }
 
 .contact-form {
-    width: 40%;
+    width: 90%;
+    max-width: 1000px;
     margin: 0 auto;
     background-color: white;
     padding: 10px;
     margin-bottom: 40px;
     border-radius: 5px;
+    box-sizing: border-box;
 }
 
 .contact-title {
@@ -55,6 +58,7 @@
     border: 1px solid black;
     border-radius: 5px;
     font-size: 20px;
+    box-sizing: border-box;
 }
 
 .input-container {
@@ -72,11 +76,9 @@ label {
 .contact-form button {
     display: block;
     margin: 0 auto;
-    width: 30%;
-    font-size: 40px;
+    font-size: 2vw;
     text-align: center;
     color: white;
-    background-color: #0056b3;
     border: none;
     border-radius: 5px;
     cursor: pointer;
@@ -87,62 +89,139 @@ label {
     background-color: #0760d4;
 }
 
+button {
+    font-size: 2vw;
+    background-color: #0056b3;
+}
 
 .facility-container {
-    display: flex;
-    flex-direction: column;
-    max-width: 1600px;
+    width: 90%;
+    max-width: 100%;
     margin: 0 auto;
     background-color: white;
     margin-bottom: 100px;
+    padding: 20px;
+    box-sizing: border-box;
 }
 
 .facility-items {
     display: flex;
-    align-items: flex-start;
-    margin-left: 40px;
-    margin-bottom: 30px;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+    margin-left: 20px;
 }
 
 .facility-container h3 {
     font-size: 30px;
-    margin-bottom: 10px;
-    margin-left: 40px;
+    margin: 20px 0 10px 20px;
 }
 
 .facility-box {
     display: flex;
+    align-items: center;
+}
+    
+.icons {
+    display: flex;
     justify-content: center;
     align-items: center;
     background-color: #0056b3;
-    width: 300px;
+    width: 400px;
     height: 300px;
 }
 
-.icons {
-    font-size: 100px;
+.icons i {
+    font-size: 6vw;
 }
-
 .facility-text {
-    font-size: 40px;
-    width: 60%;
+    width: 90%;
     margin-bottom: 0;
+    margin-top: 0;
 }
-
 .facility-text p {
-    margin-top: 0;
-    margin-bottom: 0;
-    margin-left: 20px;
+    font-size: 1.8vw;
 }
 
-.opening-text {
-    font-size: 30px;
-    padding-right: 20px;
-    width: 50%;
+@media screen and (max-width: 1700px) {
+    .icons {
+        width: 300px;
+        height: 200px;
+    }
 }
 
-.opening-text p {
-    margin: 10px;
-    margin-left: 20px;
-    margin-top: 0;
+@media screen and (max-width: 1000px) {
+    .input-container {
+        margin-bottom: 5px;
+    }
+    .facility-container h3 {
+        font-size: 20px;
+        margin: 20px 0 10px 20px;
+    }
+    
+    .opening-text p {
+        font-size: 30px;
+    }
+    
+    .icons {
+        width: 200px;
+        height: 150px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .contact-info {
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .contact-info section i {
+        font-size: 40px;
+        margin-bottom: 10px;
+    }
+    .contact-info p {
+        margin: 2px 0 10px 0;
+        font-size: 13px;
+        font-weight: bold;
+    }
+   
+    .contact-form button {
+        font-size: 20px;
+    }
+
+    .icons {
+        width: 150px;
+        height: 150px;
+    }
+    .icons i {
+        font-size: 40px;
+    }
+    .facility-text p {
+        font-size: 15px;
+    }
+    .facility-container {
+        padding: 5px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .facility-container h3 {
+        font-size: 20px;
+        margin: 0;
+    }
+    .facility-items {
+        margin: 0;
+    }
+    .icons {
+        width: 120px;
+        height: 120px;
+    }
+    .facility-text {
+        margin-left: 0;
+    }
+    .facility-text p {
+        font-size: 11px;
+        margin: 0;
+    }
 }
