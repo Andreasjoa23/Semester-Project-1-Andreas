@@ -1,8 +1,8 @@
-@import url(/header.css);
+@import url(header.css);
 @import url(footer.css);
 @import url(styles.css);
 
-.banner { 
+.banner {
     position: relative;
     background-image: url(/images/exhibition-1863344_1920.jpg);
     width: 100%;

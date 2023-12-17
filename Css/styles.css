@@ -1,5 +1,10 @@
 @import url(/header.css);
 @import url(footer.css);
+
+* p {
+    font-family: "Comic Sans MS";
+}
+
 body {
     margin: 0;
     background-color: #CCE0FF;
@@ -16,6 +21,7 @@ body {
     font-size: 1.6vw;
     margin-bottom: 50px;
 }
+
 
 /* Contents that are on the Exhibition- and Get involved page */
 
@@ -61,11 +67,11 @@ body {
         margin-bottom: 20px;
     }
     .style-text h3 {
-        font-size: 20px;
+        font-size: 15px;
         margin: 2px 2px 2px 2px;
     }
     .style-text p {
-        font-size: 18px;
+        font-size: 13px;
     }
     .style-text {
         padding: 0 2px 0 2px;

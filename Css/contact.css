@@ -5,28 +5,28 @@
 .contact-info {
     display: flex;
     justify-content: space-between;
-    width: 75%;
+    width: 50%;
     margin: 0 auto;
+    gap: 20px;
 }
 
 .contact-info section {
-    width: calc(33% - 30px);
+    width: 50%;
     border: 1px solid black;
-    padding: 10px;
     text-align: center;
     background-color: white;
-    margin-right: 10px;
     margin-bottom: 40px;
 }
 
 .contact-info section i {
-    font-size: 4vw;
+    font-size: 3.5vw;
     margin-bottom: 10px;
+    margin-top: 10px;
 }
 
 .contact-info p {
-    margin: 0 0 20px 0;
-    font-size: 1.3vw;
+    margin: 0 0 10px 0;
+    font-size: 1.2vw;
     font-weight: bold;
 }
 
@@ -143,42 +143,40 @@ button {
     font-size: 1.8vw;
 }
 
-@media screen and (max-width: 1700px) {
+
+@media screen and (max-width: 1300px){
     .icons {
-        width: 300px;
-        height: 200px;
+        width: 25vw;
+        height: 20vw;
     }
 }
 
 @media screen and (max-width: 1000px) {
-    .input-container {
-        margin-bottom: 5px;
-    }
-    .facility-container h3 {
-        font-size: 20px;
-        margin: 20px 0 10px 20px;
-    }
-    
-    .opening-text p {
-        font-size: 30px;
-    }
-    
-    .icons {
-        width: 200px;
-        height: 150px;
-    }
-}
-
-@media screen and (max-width: 700px) {
     .contact-info {
-        width: 100%;
         flex-direction: column;
         align-items: center;
+    }
+    .contact-info section {
+        margin-bottom: 10px;
     }
     
     .contact-info section i {
         font-size: 40px;
+    }
+    .contact-info p {
+        margin: 2px 0 10px 0;
+        font-size: 13px;
+        font-weight: bold;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .contact-info section {
         margin-bottom: 10px;
+    }
+    
+    .contact-info section i {
+        font-size: 40px;
     }
     .contact-info p {
         margin: 2px 0 10px 0;
@@ -199,13 +197,27 @@ button {
     }
     .facility-text p {
         font-size: 15px;
+        margin: 0;
     }
     .facility-container {
         padding: 5px;
     }
+    .facility-container h3 {
+        margin: 2px 0 2px 20px;
+    }
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 520px) {
+    .contact-info {
+        width: 70%;
+    }
+    .facility-container {
+        text-align: center;
+    }
+    .facility-items {
+        flex-direction: column;
+        margin-bottom: 1px;
+    }
     .facility-container h3 {
         font-size: 20px;
         margin: 0;
