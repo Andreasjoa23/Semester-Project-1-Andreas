@@ -8,7 +8,9 @@
     gap: 20px;
 }
 
-.contact-info section {
+.phone,
+.adress,
+.email {
     width: 50%;
     border: 1px solid black;
     text-align: center;
@@ -16,7 +18,7 @@
     margin-bottom: 40px;
 }
 
-.contact-info section i {
+.contact-info i {
     font-size: 3.5vw;
     margin-bottom: 10px;
     margin-top: 10px;
