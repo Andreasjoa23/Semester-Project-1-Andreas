@@ -1,0 +1,57 @@
+@import url(styles.css);
+
+.style-content {
+    background-color: #006666;
+    color: white;
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 40px;
+    box-sizing: border-box;
+}
+
+.style-images {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding-bottom: 20px;
+    overflow-x: auto;
+}
+
+.style-images img {
+    width: 48%;
+    height: auto;
+}
+
+.style-text {
+    padding-left: 40px;
+}
+
+.style-text h3 {
+    font-size: 2vw;
+    margin-bottom: 20px;
+}
+
+.style-text p {
+    font-size: 1.9vw;
+    margin-top: 0;
+}
+
+@media screen and (max-width: 700px) {
+    .titles {
+        font-size: 14px;
+        margin-bottom: 20px;
+    }
+    .style-text h3 {
+        font-size: 15px;
+        margin: 2px 2px 2px 2px;
+    }
+    .style-text p {
+        font-size: 13px;
+    }
+    .style-text {
+        padding: 0 2px 0 2px;
+    }
+    .style-images {
+        padding: 0;
+    }
+}
