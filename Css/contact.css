@@ -234,6 +234,6 @@ button {
     }
     .facility-text p {
         font-size: 11px;
-        margin: 0;
+        margin-bottom: 5px;
     }
 }
