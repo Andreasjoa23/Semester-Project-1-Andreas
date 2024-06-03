@@ -1,5 +1,5 @@
 # Semester-Project-1
-![RainyDays_Logo]([https://github.com/Andreasjoa23/Rainydays/assets/147412848/473feae5-71de-410c-b7c8-f622adbe2370](https://github.com/Andreasjoa23/Semester-Project-1-Andreas/blob/main/images/logo.png))
+![RainyDays_Logo](https://github.com/Andreasjoa23/Semester-Project-1-Andreas/blob/main/images/logo.png)
 
 Welcome to my first semester project, this is an assigment done 2-3 months after I started to code for the first time.
 
