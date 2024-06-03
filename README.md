@@ -24,18 +24,18 @@ Discovery Den is created to be a a modern museum that targets a younger audience
 
   To get a local copy up and running, simply clone the repo:
   ```bash
-  git clone git@github.com: gh repo clone Andreasjoa23/Rainydays
+  git clone git@github.com: gh repo clone Andreasjoa23/Semester-Project-1-Andreas
   ```
   ### Running
   Since the project uses static HTML and CSS, you can simply open the index.html file in your browser to view the website.
 1. Clone the repo:
 
 ```bash
-git clone git@github.com:NoroffFEU/portfolio-1-example.git
+git clone git@github.com:Andreasjoa23/Semester-Project-1-Andreas-example.git
 ```
 
 2. Install the dependencies:
-
+3. 
 ```
 npm install
 ```
@@ -44,6 +44,7 @@ npm install
   I welcome contributions from every eager coder who wants to help and make a difference! 
   Whether you're fixing bugs, improving the code, or adding new features, your efforts are appreciated. 
   To contribute to this project, please follow the guidelines below:
+  
   ### How to Contribute
   1. Fork the Project
   2. Create your Feature Branch (git checkout -b feature/NameOfYourFeature)
@@ -59,11 +60,8 @@ Right now you can contact me on GitHub if you have any thoughts or questions: @A
   To put into practice everything you’ve learned about HTML and CSS over this course by bringing your design alive.
 
   ## Brief
-  You must deliver a properly functioning, responsive website for the assignment brief you chose in Design 1.
-  The site needs to have every page listed in the site architecture on your chosen brief. Certain functionality requiring JavaScript can be mimicked; for example, a login page could link across from the ‘Sign in’ button.
-  The HTML should be semantic, neatly formatted and valid.
-  The CSS should follow the DRY principle and be easy to read.
-  The website should be responsive and look good at every screen size with no horizontal scrollbars. Use Flexbox and CSS Grids where appropriate. Please do not use a CSS framework like Bootstrap; we want to see that you can build responsive sites without the help of a framework.
-  The site should be WCAG compliant, and accessibility should be taken into account.
-  Each page should have a unique **meta name="description"**, **title**, and **h1**.
-  You should not use copied code in your submission. All code submitted must be written by yourself. You may use external sources to show you how to achieve specific effects, which should be included in your report.
+  Design and build a modern, accessible and responsive web presence for the client using the provided image and text content.
+
+  The site should appeal to youngsters without pandering; while aiming at a younger audience it should not patronise them with overtly childish themes. The core purpose of the site is to excite and entice people to visit the museum.
+
+  The client has not supplied a logo because the museum committee cannot decide on a final design. You are free to create a placeholder logo for the client.
